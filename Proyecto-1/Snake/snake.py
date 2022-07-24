@@ -7,7 +7,7 @@ from pygame.locals import *
 
 pygame.init()
 
-## Creamos de la clase Juego
+## Creamos la clase Juego
 
 class Juego(object):
 

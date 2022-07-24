@@ -12,7 +12,7 @@ implementaciones constituyen el grueso del proyecto.
 - Juego de la vida
 - Piedra papel o tijera
 - Adivina el número oculto
-- ¿Cuál es mi acronimo?
+- ¿Cuál es mi username?
 
 #### Esperanzas del proyecto
 
