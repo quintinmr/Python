@@ -7,13 +7,13 @@ pantalla = pygame.display.set_mode((300,168))
 pygame.display.set_caption("Game Ball")
 
 # Creamos la pelota
-ball     = pygame.image.load('ball.png')
+ball     = pygame.image.load('/home/quintin/Github/Python/Proyecto-1/Ball/ball.png')
 ballrect = ball.get_rect()
 speed    = [3.5,3.5]
 ballrect.move_ip(0,0)
 
 # Creamos la tabla que va a golpear la pelota
-bate    = pygame.image.load('bate.png')
+bate    = pygame.image.load('/home/quintin/Github/Python/Proyecto-1/Ball/bate.png')
 baterect = bate.get_rect()
 
 # Ponemos la tabla en la parte inferior de la pantalla
@@ -65,7 +65,7 @@ while jugar:
     else:
 
         # Establecemos el fondo de pantalla
-        pantalla.blit(pygame.image.load('fondo.jpeg'), (0,0))
+        pantalla.blit(pygame.image.load('/home/quintin/Github/Python/Proyecto-1/Ball/fondo.jpeg'), (0,0))
 
         # Dibujamos la pelota
         pantalla.blit(ball, ballrect)
